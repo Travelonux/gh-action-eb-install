@@ -11,8 +11,6 @@ runs:
     - uses: actions/checkout@v4
       with:
         repository: 'aws/aws-elastic-beanstalk-cli-setup'
-        path: 'aws-elastic-beanstalk-cli-setup'
-        branch: 'master'
 
     - uses: actions/setup-python@v5
       with:
