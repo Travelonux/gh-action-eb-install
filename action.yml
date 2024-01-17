@@ -15,7 +15,8 @@ runs:
 
     - uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        # https://github.com/aws/aws-elastic-beanstalk-cli/issues/493
+        python-version: '3.11.x'
 
     - name: Pip install virtualenv
       shell: bash
